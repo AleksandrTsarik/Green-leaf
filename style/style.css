@@ -124,6 +124,10 @@ button {
   background: none;
   cursor: pointer;
   transition: 0.3s;
+  border: solid 1px transparent;
+}
+button:focus {
+  box-shadow: 0 0 0 2px rgba(7, 112, 220, 0.5);
 }
 
 section {
