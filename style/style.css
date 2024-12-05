@@ -479,7 +479,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  width: 340px;
+  width: 290px;
   transition: 0.3s;
   height: 0;
   padding: 0;
@@ -490,6 +490,11 @@ body {
   position: absolute;
   left: 0;
   top: 100%;
+}
+@media (min-width: 575px) {
+  .priority-select__drop {
+    width: 340px;
+  }
 }
 .priority-select__drop.open {
   height: auto;

@@ -336,7 +336,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    width: 340px;
+    width: 290px;
     transition: 0.3s;
 
     height: 0;
@@ -348,6 +348,9 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
+    @media (min-width: 575px) {
+      width: 340px;
+    }
     &.open {
       height: auto;
       padding: 16px 8px;
