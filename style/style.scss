@@ -145,7 +145,7 @@ body {
     position: relative;
     &:after {
       content: "";
-      background-image: url("img/prioritet-text.svg");
+      background-image: url("../img/prioritet-text.svg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -579,7 +579,7 @@ body {
     }
   }
   &__bg {
-    background-image: url("img/quiz-text.svg");
+    background-image: url("../img/quiz-text.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
