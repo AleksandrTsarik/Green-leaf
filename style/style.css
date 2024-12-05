@@ -404,9 +404,17 @@ body {
 }
 
 .priority-select-double {
+  white-space: nowrap;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
+}
+@media (min-width: 768px) {
+  .priority-select-double {
+    flex-wrap: wrap;
+  }
 }
 .priority-select-double__item[data-id] {
   display: none;
@@ -719,6 +727,11 @@ body {
   padding: 12px 41px;
   font-size: 18px;
   font-weight: 500;
+}
+@media (min-width: 1024px) {
+  .quiz__btn button:hover {
+    background-color: #1341c2;
+  }
 }
 .quiz__bg {
   background-image: url("../img/quiz-text.svg");
